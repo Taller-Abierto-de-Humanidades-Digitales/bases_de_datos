@@ -93,7 +93,7 @@ nombre_csv = '{}/data/{}-{}.csv'.format(local, nombre_archivo_csv, vtiempo)
 if os.path.exists(nombre_csv):
     os.remove(nombre_csv)
 
-with open(nombre_csv, "w", newline="") as csv_file:
+with open(nombre_csv, "w", encoding="utf-8", newline="") as csv_file:
     writer = csv.writer(csv_file)
     print("creando archivo csv")
     writer.writerows(zip(ident, texto_titulo, texto_fecha_creacion, texto_lugar_documento, texto_signatura,
