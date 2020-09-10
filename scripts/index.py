@@ -54,7 +54,8 @@ Loop para llenar los listados
 resultado = navegador_pantallas(url_busqueda)
 
 for i in range(len(resultado)):
-    ident.append(str(i))
+    incremento = i + 1
+    ident.append(incremento)
 
 
 for h in resultado:
@@ -87,16 +88,12 @@ texto_archivo = limpiadatos(texto_archivo)
 Crear el archivo csv: se eliminarán los archivos que contengan el mismo nombre.
 '''
 
-nombre_csv = '{}/data/{}{}.csv'.format(local, nombre_archivo_csv, vtiempo)
+nombre_csv = '{}/data/{}-{}.csv'.format(local, nombre_archivo_csv, vtiempo)
 
 if os.path.exists(nombre_csv):
     os.remove(nombre_csv)
 
 with open(nombre_csv, "w", newline="") as csv_file:
-    fieldnames = ['id', 'titulo', 'fecha', 'lugar_creacion_documento', 'signatura',
-                  'archivo', 'alcance_y_contenido', 'url']
-    writer_h = csv.DictWriter(csv_file, fieldnames=fieldnames)
-    writer_h.writeheader()
     writer = csv.writer(csv_file)
     print("creando archivo csv")
     writer.writerows(zip(ident, texto_titulo, texto_fecha_creacion, texto_lugar_documento, texto_signatura,
