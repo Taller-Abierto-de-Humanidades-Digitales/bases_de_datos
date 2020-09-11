@@ -31,7 +31,7 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `capitanes` (
   `idcapitanes` int(11) NOT NULL,
-  `nombre_capitan` varchar(45) CHARACTER SET utf8 DEFAULT NULL
+  `nombre_capitan` varchar(100) CHARACTER SET utf8 DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
@@ -58,7 +58,7 @@ CREATE TABLE `fuente` (
   `nombre_serie` varchar(45) CHARACTER SET utf8 DEFAULT NULL,
   `signatura` varchar(45) CHARACTER SET utf8 DEFAULT NULL,
   `tipo_doc` varchar(45) CHARACTER SET utf8 DEFAULT NULL,
-  `titulo_doc` varchar(45) CHARACTER SET utf8 DEFAULT NULL,
+  `titulo_doc` varchar(200) CHARACTER SET utf8 DEFAULT NULL,
   `fecha_doc` date DEFAULT NULL,
   `folio_pagina` varchar(45) CHARACTER SET utf8 DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;

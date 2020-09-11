@@ -62,9 +62,9 @@ WHERE
 -- Recuperar información para las tablas relacionales "capitanes_de_navio" y "viajes"
 
 SET @getidcapitan = (SELECT `idcapitanes` FROM `capitanes` WHERE `nombre_capitan` LIKE @capitanom) ;
-
 SET @getidnavio = (SELECT `idnavio` FROM `navio` WHERE `nombre_navio` LIKE @navionom) ;
 
+-- Insertar información en Capitanes de navío
 
 INSERT INTO `capitanes_de_navio` (`idcapitanes_de_navio`, `capitanes_idcapitanes`, `navio_idnavio`)
 VALUES(NULL, @getidcapitan, @getidnavio) ;
