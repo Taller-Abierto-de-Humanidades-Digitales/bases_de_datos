@@ -1,7 +1,7 @@
 # Guía SQLite
 
 
-> Tipos de datos en SQLite
+# Tipos de datos en SQLite
 
 - NULL -> Valor vacío o nulo
 - INTEGER -> Valor de número entero, positivo o negativo
@@ -10,18 +10,18 @@
 - BLOB -> Archivos almacenados como binarios.
 
 
-> Esquema de la base de datos
+# Esquema de la base de datos
 
 <img src="images\esquema_db.jpg">
 
 
-> Crear una base de datos en SQLite3
+# Crear una base de datos en SQLite3
 
 ```sql
 sqlite3 bibliografia_hd.db
 ```
 
-> Crear una tabla
+# Crear tablas
 
 ```
 CREATE TABLE IF NOT EXISTS autores (
@@ -155,7 +155,6 @@ WHERE obras.titulo LIKE "%dig%" AND obras.lenguaje LIKE "es%"
 ALTER TABLE obras ADD COLUMN subtitulo TEXT
 ```
 
-
 # Actualizar la tabla para que incluya la nueva información
 
 > Una forma relativamente segura de actualizar la información de la tabla es la siguiente:
@@ -164,9 +163,17 @@ ALTER TABLE obras ADD COLUMN subtitulo TEXT
 UPDATE obras SET subtitulo = "How the web is transforming historical research" WHERE titulo = "History in the Age of Abundance"
 ```
 
-> Modificar una tabla basándose en reglas
+> Modificar una tabla basándose en reglas (*solamente como referencia*)
 
 ```
 UPDATE obras SET id_autores = (SELECT autores.id_autores FROM autores WHERE autores.apellido = "Liu") WHERE obras.titulo = "Friending the Past"
+```
+
+# Eliminar tabla
+
+De manera similar a la forma de crear tablas:
+
+```
+DROP TABLE IF EXISTS demo 
 ```
 
