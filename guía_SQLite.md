@@ -107,10 +107,10 @@ Para no hacer este ingreso de información manual, podemos crear una regla que f
 ```
 INSERT INTO obras (id_autores, id_tdo, titulo, lenguaje)
 VALUES
-((SELECT autores.id_autores FROM autores WHERE autores.apellido = "Moretti"), (SELECT tipos_de_obras.id_tdo FROM tipos_de_obras WHERE tipos_de_obras.tipo = "Ensayo"), "Lectura distante", "es-ES"),
-((SELECT autores.id_autores FROM autores WHERE autores.apellido = "Vinck"), (SELECT tipos_de_obras.id_tdo FROM tipos_de_obras WHERE tipos_de_obras.tipo = "Ensayo"), "Humanidades Digitales", "es-ES"),
-((SELECT autores.id_autores FROM autores WHERE autores.apellido = "Milligan"), (SELECT tipos_de_obras.id_tdo FROM tipos_de_obras WHERE tipos_de_obras.tipo = "Manual"), "History in the Age of Abundance", "en-US"),
-((SELECT autores.id_autores FROM autores WHERE autores.apellido = "Liu"), (SELECT tipos_de_obras.id_tdo FROM tipos_de_obras WHERE tipos_de_obras.tipo = "Ensayo"), "Friending the Past", "en-US")
+((SELECT autores.id_autores FROM autores WHERE autores.apellido = "Moretti"), (SELECT tipos_de_obras.id_tdo FROM tipos_de_obras WHERE tipos_de_obras.tipo = "Ensayo"), "Lectura distante", "es"),
+((SELECT autores.id_autores FROM autores WHERE autores.apellido = "Vinck"), (SELECT tipos_de_obras.id_tdo FROM tipos_de_obras WHERE tipos_de_obras.tipo = "Ensayo"), "Humanidades Digitales", "es"),
+((SELECT autores.id_autores FROM autores WHERE autores.apellido = "Milligan"), (SELECT tipos_de_obras.id_tdo FROM tipos_de_obras WHERE tipos_de_obras.tipo = "Manual"), "History in the Age of Abundance", "en"),
+((SELECT autores.id_autores FROM autores WHERE autores.apellido = "Liu"), (SELECT tipos_de_obras.id_tdo FROM tipos_de_obras WHERE tipos_de_obras.tipo = "Ensayo"), "Friending the Past", "en")
 ```
 
 > Comprobar que la información ha sido guardada correctamente
