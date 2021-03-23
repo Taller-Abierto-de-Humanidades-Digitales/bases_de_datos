@@ -275,4 +275,63 @@ Las tablas también aceptan estilos. Podemos hacer más legible nuestra tabla si
 
 Con el parámetro `width` determinamos el ancho de la tabla. `border` nos permite establecer el ancho de la línea en pixeles, el estilo (`solid`, `dotted`) y el color.
 
-# 
+# La etiqueta `<div>`
+
+Los bloques organizados en las etiquetas `<div>` son ampliamente utilizados porque permiten definir secciones específicas dentro de un documento HTML. En términos simples, un `<div>` es un contenedor para otros elementos HTML, que pueden ser estilizados con *CSS* o manipulados mediante *JAvaScript*
+
+Por ejemplo, podemos hacer un div para distinguir los elementos que hemos añadido hasta ahora:
+
+```html
+<div>
+    <h2>Este es el encabezado de mi div</h2>
+    <p>Y este párrafo está dentro del div :D</p>
+</div>
+```
+
+Hasta ahora lo que hay contenido en el `div` hereda los estilos que hemos declarado en el `style`. Pero podemos modificar eso si incluimos una *clase* que incluya solamente a este div. Para ello, creamos una clase en el elemento `style` y la asociamos con el `div` que acabamos de crear:
+
+```html
+<head>
+<style>
+    .div_estilo {
+        background-color: honeydew;
+        align-items: center;
+        width: 700px;
+        height: 300px;
+        margin-top: 15px;
+        padding-top: 15px;
+        border: 2px solid black;
+    }
+
+    .div_estilo h2 {
+        color: black;
+    }
+
+    .div_estilo p {
+        font-style: italic;
+        color: gray;
+        text-align: center;
+        font-size: 16px;
+        font-family: cursive;
+    }
+</style>
+</head>
+<body>
+<div class="div_estilo">
+    <h2>Este es el encabezado de mi div</h2>
+    <p>Y este párrafo está dentro del div :D</p>
+</div>
+</body>
+```
+
+Al incluir estos cambios, el `div` ya se diferencia del resto del sitio.
+
+# Conclusión
+
+Con estas pocas etiquetas es posible construir un sitio Web con algo de imaginación, pero, sobre todo, de identificar una forma de modelar información. Puedes ver el documento HTML que hemos construido en el siguiente enlace: https://github.com/Taller-Abierto-de-Humanidades-Digitales/bases_de_datos/blob/master/ejemplos/ejemploHTML.html
+
+Una página en sí misma puede ser diseñada con elementos semánticos que den cuenta de la posición de un elemento en su conjunto. Etiquetas como `<article>` pueden definir contenido independiente o auto-contenido dentro de un sitio Web; por ejemplo, las entradas de un blog. 
+
+<img src="https://www.w3schools.com/html/img_sem_elements.gif">
+
+Podría ser posible incluso modelar la información a partir de clases y atribuciones en divs, pero con esto tendríamos el inconveniente de no ajustarnos a un esquema o estándar. Por ello, para modelar semánticamente un texto u otros contenidos, las alternativas mas utilizadas son `XML` y `JSON`.
