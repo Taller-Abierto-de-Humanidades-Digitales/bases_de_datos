@@ -161,12 +161,12 @@ Por ejemplo, podemos insertar una imagen directamente guardada en el servidor en
 O directamente de una dirección URL
 
 ```html
-<img src="https://github.com/Taller-Abierto-de-Humanidades-Digitales/bases_de_datos/blob/master/ejemplos/imgs/HTML_img.jpg">
+<img src="https://github.com/Taller-Abierto-de-Humanidades-Digitales/bases_de_datos/raw/master/ejemplos/imgs/HTML_img.jpg">
 ```
 
 Con este ejemplo, deberías poder mostrar en tu página la siguiente imagen:
 
-<img src="https://github.com/Taller-Abierto-de-Humanidades-Digitales/bases_de_datos/blob/master/ejemplos/imgs/HTML_img.jpg">
+<img src="https://github.com/Taller-Abierto-de-Humanidades-Digitales/bases_de_datos/raw/master/ejemplos/imgs/HTML_img.jpg">
 
 Para cambiar el tamaño de la imagen podemos definir el ancho y el alto de esta con los parámetros `width` y `height`.
 
@@ -176,14 +176,14 @@ Estos deben usarse con precaución para no distorsionar la imagen. Por ejemplo, 
 <img src="imgs/HTML_img.jpg" width="800">
 ```
 
-<img src="https://github.com/Taller-Abierto-de-Humanidades-Digitales/bases_de_datos/blob/master/ejemplos/imgs/HTML_img.jpg" width="800">
+<img src="https://github.com/Taller-Abierto-de-Humanidades-Digitales/bases_de_datos/raw/master/ejemplos/imgs/HTML_img.jpg" width="800">
 
 Pero si lo hacemos de la siguiente manera, incluyendo un alto de 200px, la imagen se distorsionará completamente:
 
 ```html
 <img src="imgs/HTML_img.jpg" width="800" height="200">
 ```
-<img src="https://github.com/Taller-Abierto-de-Humanidades-Digitales/bases_de_datos/blob/master/ejemplos/imgs/HTML_img.jpg" width="800" height="200">
+<img src="https://github.com/Taller-Abierto-de-Humanidades-Digitales/bases_de_datos/raw/master/ejemplos/imgs/HTML_img.jpg" width="800" height="200">
 
 
 # Introducción a los estilos en HTML (CSS) 
