@@ -328,7 +328,7 @@ Al incluir estos cambios, el `div` ya se diferencia del resto del sitio.
 
 # Conclusión
 
-Con estas pocas etiquetas es posible construir un sitio Web con algo de imaginación, pero, sobre todo, de identificar una forma de modelar información. Puedes ver el documento HTML que hemos construido en el siguiente enlace: https://github.com/Taller-Abierto-de-Humanidades-Digitales/bases_de_datos/blob/master/ejemplos/ejemploHTML.html
+Con estas pocas etiquetas es posible construir un sitio Web con algo de imaginación, pero, sobre todo, de identificar una forma de modelar información. Puedes ver el documento HTML que hemos construido en el siguiente enlace: [HTML de ejemploHTML.html](https://github.com/Taller-Abierto-de-Humanidades-Digitales/bases_de_datos/blob/master/ejemplos/ejemploHTML.html). También puedes consultar el resultado en [ejemploHTML.html](/ejemplos/ejemploHTML.html)
 
 Una página en sí misma puede ser diseñada con elementos semánticos que den cuenta de la posición de un elemento en su conjunto. Etiquetas como `<article>` pueden definir contenido independiente o auto-contenido dentro de un sitio Web; por ejemplo, las entradas de un blog. 
 

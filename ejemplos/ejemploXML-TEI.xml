@@ -1,0 +1,52 @@
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
+  <teiHeader>
+    <!-- metadatos que describen el texto -->
+    <fileDesc>
+      <seriesStmt>
+        <title>Rebelión comunera de 1781. Documentos</title>
+        <biblScope unit="volume">Tomo I</biblScope>
+        <respStmt>
+          <persName>Juan Friede</persName>
+        </respStmt>
+      </seriesStmt>
+      <publicationStmt>
+        <publisher>Instituto Colombiano de Cultura</publisher>
+        <date>1981</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Impreso en Editorial Linotipia Bolívar Ltda.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <!-- la representación del texto mismo -->
+    <body>
+      <div type="volume" xml:id="C01">
+        <div type="section" xml:id="C0101">
+          <head>1</head>
+          <abstract>
+            <p>Cartas de <persName><surname>Berbeo</surname></persName> a capitanes del común<note place="bottom" type="footnote">Biblioteca Nacional. Comuneros. Tomo VI. Folios 27vo y 28.</note></p>
+          </abstract>
+          <p>Señor capitán don <persName><forename type="primer">Juan</forename><forename type="segundo">Francisco</forename> <surname>Becerra</surname></persName>. Muy Señor
+mío: Se recibió la de Vuestra Merced con fecha de 3 del pre-
+sente, y en asunto de tabaco podra Vuestra Merced mandar se
+venda por ser la cortedad que refiere al precio que hallare
+conveniente. Remito un cuadernillo de papel y vea Vuestra Merced
+que otra cosa se ofrece. Nuestro Señor le guarde muchos
+años. <placeName>Socorro</placeName> <date when="1781-05-05">5 de mayo de 81</date>. Beso las manos de Vuestra Merced,
+su afectísimo, Juan Francisco Berbeo <signatures>[Firma]</signatures>.</p>
+		<p>Señores capitanes de la parroquia de los Dolores. Muy
+señores mios: Por lograr la victoria de nuestra empresa, es ne-
+cesario que Vuestras Mercedes tengan a bien apercibida la gente
+de su comando de modo que esten listos a cualquiera orden,
+como asimismo prevendran a los duefios de mulas, las tengan
+prontas con sus toldos por si fuere necesario el que ocurramos
+a Santafe o a dar socorro que anda arriba. Dios guarde a
+Vuestras Mercedes muchos años. Quedo para que me manden.
+Socorro y mayo 4 de 1781 años. Beso las manos de Vuestras
+Mercedes su afectísimo, <persName><forename type="primer">Juan</forename><forename type="segundo">Francisco</forename> <surname>Berbeo</surname></persName> <signatures>[Firma]</signatures>.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

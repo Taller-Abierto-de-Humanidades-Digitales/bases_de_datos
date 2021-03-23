@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libro>
+	<portada>
+		<title>
+            Rebelión Comunera de 1781. Documentos
+        </title>
+		<tomo>
+            Tomo I
+        </tomo>
+		<autor>
+			<autorName>Juan</autorName>
+			<autorApellido>Friede</autorApellido>
+		</autor>
+		<editorial>
+            Instituto Colombiano de Cultura
+        </editorial>
+	</portada>
+	<paginaLegal>
+		<impresor>
+            Editorial Linotipia Bolívar Ltda.
+        </impresor>
+		<yearPub type="xs:integer">
+            1981
+        </yearPub>
+	</paginaLegal>
+	<documento>
+		<numPag>3</numPag>
+		<numDoc>1</numDoc>
+		<resumenDoc>Cartas de Berbeo a capitanes del Común
+			<llamadoNota>1</llamadoNota>
+		</resumenDoc>
+		<p>Señor capitán don Juan Francisco Becerra. Muy Señor
+mío: Se recibió la de Vuestra Merced con fecha de 3 del pre-
+sente, y en asunto de tabaco podra Vuestra Merced mandar se
+venda por ser la cortedad que refiere al precio que hallare
+conveniente. Remito un cuadernillo de papel y vea Vuestra Merced
+que otra cosa se ofrece. Nuestro Señor le guarde muchos
+años. Socorro 5 de mayo de 81. Beso las manos de Vuestra Merced,
+su afectísimo, Juan Francisco Berbeo [Firma].</p>
+		<p>Señores capitanes de la parroquia de los Dolores. Muy
+sefiores mios: Por lograr la victoria de nuestra empresa, es ne-
+cesario que Vuestras Mercedes tengan a bien apercibida la gente
+de su comando de modo que esten listos a cualquiera orden,
+como asimismo prevendran a los duefios de mulas, las tengan
+prontas con sus toldos por si fuere necesario el que ocurramos
+a Santafe o a dar socorro que anda arriba. Dios guarde a
+Vuestras Mercedes muchos años. Quedo para que me manden.
+Socorro y mayo 4 de 1781 años. Beso las manos de Vuestras
+Mercedes su afectísimo, Juan Francisco Berbeo [Firma].</p>
+		<notas>
+			<p>
+				<numNota>1</numNota>Biblioteca Nacional. Comuneros. Tomo VI. Folios 27vo y 28.
+			</p>
+		</notas>
+	</documento>
+</libro>
