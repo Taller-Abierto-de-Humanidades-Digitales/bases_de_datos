@@ -166,7 +166,25 @@ O directamente de una dirección URL
 
 Con este ejemplo, deberías poder mostrar en tu página la siguiente imagen:
 
-<img src="https://github.com/Taller-Abierto-de-Humanidades-Digitales/bases_de_datos/blob/master/ejemplos/imgs/HTML_img.jpg" style="width:400px; height:auto;">
+<img src="https://github.com/Taller-Abierto-de-Humanidades-Digitales/bases_de_datos/blob/master/ejemplos/imgs/HTML_img.jpg">
+
+Para cambiar el tamaño de la imagen podemos definir el ancho y el alto de esta con los parámetros `width` y `height`.
+
+Estos deben usarse con precaución para no distorsionar la imagen. Por ejemplo, si usamos el siguiente parámetro, la imagen tendrá un ancho de 800px:
+
+```html
+<img src="imgs/HTML_img.jpg" width="800">
+```
+
+<img src="https://github.com/Taller-Abierto-de-Humanidades-Digitales/bases_de_datos/blob/master/ejemplos/imgs/HTML_img.jpg" width="800">
+
+Pero si lo hacemos de la siguiente manera, incluyendo un alto de 200px, la imagen se distorsionará completamente:
+
+```html
+<img src="imgs/HTML_img.jpg" width="800" height="200">
+```
+<img src="https://github.com/Taller-Abierto-de-Humanidades-Digitales/bases_de_datos/blob/master/ejemplos/imgs/HTML_img.jpg" width="800" height="200">
+
 
 # Introducción a los estilos en HTML (CSS) 
 
@@ -257,3 +275,4 @@ Las tablas también aceptan estilos. Podemos hacer más legible nuestra tabla si
 
 Con el parámetro `width` determinamos el ancho de la tabla. `border` nos permite establecer el ancho de la línea en pixeles, el estilo (`solid`, `dotted`) y el color.
 
+# 
