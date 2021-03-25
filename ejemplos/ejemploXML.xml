@@ -3,6 +3,9 @@
 <!-- Vínculo con la hoja de estilos XSL -->
 <?xml-stylesheet type="text/xsl" href="ejemplos/ejemploXSLT.xsl"?>
 
+<!-- Vínculo con la cascada de estilos -->
+<?xml-stylesheet type="text/css" href="ejemplos/ejemplo.css"?>
+
 <libro>
 	<portada>
 		<title>
@@ -54,6 +57,33 @@ Mercedes su afectísimo, Juan Francisco Berbeo [Firma].</p>
 		<notas>
 			<p>
 				<numNota>1</numNota>Biblioteca Nacional. Comuneros. Tomo VI. Folios 27vo y 28.
+			</p>
+		</notas>
+	</documento>
+	<documento>
+		<numPag>4</numPag>
+		<numDoc>2</numDoc>
+		<resumenDoc>Cartas de Berbeo a Juan Francisco Becerra
+			<llamadoNota>2</llamadoNota>
+		</resumenDoc>
+		<p>
+			Señor capitán don Juan Francisco Becerra. Muy señor mío: Recibí la de Vuestra MErced y en su contenido remito los 
+			dos títulos adjuntos. Y por lo que respecta a los demás, Vuestra Merced como capitán, los nombrará.
+			El tiempo no da más lugar.
+		</p>
+
+		<p>
+		Nuestro Señor le guarde muchos años. Socorro y mayo 12 de 1781. Beso las manos de Vuestra Merced, su estimado,
+		Juan Francisco Berbeo [Firma].
+		</p>
+
+		<p>
+		P. D. Participo a Vuestra Merced que el señor oidor se halla prisionero con toda su gente, quien entregó todas sus
+		armas, pólvora y balas.
+		</p>
+		<notas>
+			<p>
+				<numNota>2</numNota>Biblioteca Nacional. Comuneros. Tomo VI. Folios 28vo.
 			</p>
 		</notas>
 	</documento>
