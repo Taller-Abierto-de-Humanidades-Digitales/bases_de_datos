@@ -10,3 +10,9 @@ Un editor ampliamente utilizado es [Oxygen](https://www.oxygenxml.com/), ya que 
 
 En la actualidad existen muy buenas aplicaciones en línea que facilitan la comprobación básica de XML para saber si está bien formado. Una de ellas es https://www.xmlviewer.org/, la cual permite validar el código, mostrar vistas de árbol y transformar el código XML en JSON.
 
+
+## XSL Transformer
+
+Antes de poder ver el código XML correctamente transformado, es necesario ejecutar la trasformación. Hay varias herramientas para hacer este proceso, algunas más complejas que otras. En línea podemos utilizar el sitio https://www.freeformatter.com/xsl-transformer.html que nos genera un XML transformado que podemos guardar como Web.
+
+Obviamente transformaciones más complejas demandan programación más específica, pero para un ejercicio inicial es una buena opción.

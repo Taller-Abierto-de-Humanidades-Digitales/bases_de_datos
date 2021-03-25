@@ -1,27 +1,31 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<!-- Vínculo con la hoja de estilos XSL -->
+<?xml-stylesheet type="text/xsl" href="ejemplos/ejemploXSLT.xsl"?>
+
 <libro>
 	<portada>
 		<title>
             Rebelión Comunera de 1781. Documentos
-        </title>
+		</title>
 		<tomo>
             Tomo I
-        </tomo>
+		</tomo>
 		<autor>
 			<autorName>Juan</autorName>
 			<autorApellido>Friede</autorApellido>
 		</autor>
 		<editorial>
             Instituto Colombiano de Cultura
-        </editorial>
+		</editorial>
 	</portada>
 	<paginaLegal>
 		<impresor>
             Editorial Linotipia Bolívar Ltda.
-        </impresor>
+		</impresor>
 		<yearPub type="xs:integer">
             1981
-        </yearPub>
+		</yearPub>
 	</paginaLegal>
 	<documento>
 		<numPag>3</numPag>
