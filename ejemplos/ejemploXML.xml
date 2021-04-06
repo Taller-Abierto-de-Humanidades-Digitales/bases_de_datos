@@ -31,22 +31,22 @@
 		</yearPub>
 	</paginaLegal>
 	<documento>
-		<numPag>3</numPag>
-		<numDoc>1</numDoc>
+		<numPag type="xs:integer">3</numPag>
+		<numDoc type="xs:integer">1</numDoc>
 		<resumenDoc>Cartas de Berbeo a capitanes del Común
-			<llamadoNota>1</llamadoNota>
+			<llamadoNota type="xs:integer">1</llamadoNota>
 		</resumenDoc>
 		<p>Señor capitán don Juan Francisco Becerra. Muy Señor
-mío: Se recibió la de Vuestra Merced con fecha de 3 del pre-
-sente, y en asunto de tabaco podra Vuestra Merced mandar se
+mío: Se recibió la de Vuestra Merced con fecha de 3 del presente, 
+y en asunto de tabaco podra Vuestra Merced mandar se
 venda por ser la cortedad que refiere al precio que hallare
 conveniente. Remito un cuadernillo de papel y vea Vuestra Merced
 que otra cosa se ofrece. Nuestro Señor le guarde muchos
 años. Socorro 5 de mayo de 81. Beso las manos de Vuestra Merced,
 su afectísimo, Juan Francisco Berbeo [Firma].</p>
 		<p>Señores capitanes de la parroquia de los Dolores. Muy
-sefiores mios: Por lograr la victoria de nuestra empresa, es ne-
-cesario que Vuestras Mercedes tengan a bien apercibida la gente
+sefiores mios: Por lograr la victoria de nuestra empresa, es necesario 
+que Vuestras Mercedes tengan a bien apercibida la gente
 de su comando de modo que esten listos a cualquiera orden,
 como asimismo prevendran a los duefios de mulas, las tengan
 prontas con sus toldos por si fuere necesario el que ocurramos
@@ -61,10 +61,10 @@ Mercedes su afectísimo, Juan Francisco Berbeo [Firma].</p>
 		</notas>
 	</documento>
 	<documento>
-		<numPag>4</numPag>
-		<numDoc>2</numDoc>
+		<numPag type="xs:integer">4</numPag>
+		<numDoc type="xs:integer">2</numDoc>
 		<resumenDoc>Cartas de Berbeo a Juan Francisco Becerra
-			<llamadoNota>2</llamadoNota>
+			<llamadoNota type="xs:integer">2</llamadoNota>
 		</resumenDoc>
 		<p>
 			Señor capitán don Juan Francisco Becerra. Muy señor mío: Recibí la de Vuestra MErced y en su contenido remito los 
@@ -83,7 +83,7 @@ Mercedes su afectísimo, Juan Francisco Berbeo [Firma].</p>
 		</p>
 		<notas>
 			<p>
-				<numNota>2</numNota>Biblioteca Nacional. Comuneros. Tomo VI. Folios 28vo.
+				<numNota type="xs:integer">2</numNota>Biblioteca Nacional. Comuneros. Tomo VI. Folios 28vo.
 			</p>
 		</notas>
 	</documento>

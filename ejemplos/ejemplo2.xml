@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libro>
+<portada>
+
+  <titulo>Rebelión Comunera de 1781</titulo>
+  <volumen>Tomo <num>I</num></volumen>
+  <editor><primerNombre>Juan</primerNombre>
+  <apellido>Friede</apellido>  
+  </editor>
+  <publicador>Instituto Colombiano de Cultura</publicador>
+  
+</portada>
+ <pagLegal>
+  <entidadEditora>Instituto Colombiano de Cultura
+   </entidadEditora>
+   <dirEntidad>Gloria Zea de uribe</dirEntidad>
+   <dirPub>Santiago Mutis Durán</dirPub>
+   <fechaPub type="xs:integer">1981</fechaPub>
+  </pagLegal>
+  <documento>
+    <numDoc type="xs:integer">1</numDoc>
+    <resumen>Carta de Berbeo a capitanes del Común 
+      <llamadonota>1</llamadonota></resumen>
+    <p>Señor capitán don Juan Francisco Becerra. Muy Señor
+mío: Se recibió la de Vuestra Merced con fecha de 3 del presente, 
+y en asunto de tabaco podra Vuestra Merced mandar se
+venda por ser la cortedad que refiere al precio que hallare
+conveniente. Remito un cuadernillo de papel y vea Vuestra Merced
+que otra cosa se ofrece. Nuestro Señor le guarde muchos
+años. Socorro 5 de mayo de 81. Beso las manos de Vuestra Merced,
+su afectísimo, Juan Francisco Berbeo [Firma].</p>
+    <textoNota><numNota>1</numNota>Biblioteca Nacional. Comuneros. Tomo VI. Folios 27vo y 28.</textoNota>
+  </documento>
+</libro>

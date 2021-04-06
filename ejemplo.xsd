@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid Technologies Online Tools 1.0 (https://www.liquid-technologies.com) -->
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="libro">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="portada">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element minOccurs="0" name="title" type="xs:string" />
+                            <xs:element minOccurs="0" name="tomo" type="xs:string" />
+                            <xs:element minOccurs="0" name="autor">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element minOccurs="0" name="autorName" type="xs:string" />
+                                        <xs:element minOccurs="0" name="autorApellido" type="xs:string" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element minOccurs="0" name="editorial" type="xs:string" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element minOccurs="0" name="paginaLegal">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element minOccurs="0" name="impresor" type="xs:string" />
+                            <xs:element minOccurs="0" name="yearPub">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="xs:unsignedShort">
+                                            <xs:attribute name="type" type="xs:string" use="optional" />
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element minOccurs="0" maxOccurs="unbounded" name="documento">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element minOccurs="0" name="numPag">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="xs:unsignedByte">
+                                            <xs:attribute name="type" type="xs:string" use="optional" />
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element minOccurs="0" name="numDoc">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="xs:unsignedByte">
+                                            <xs:attribute name="type" type="xs:string" use="optional" />
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element minOccurs="0" name="resumenDoc">
+                                <xs:complexType mixed="true">
+                                    <xs:sequence>
+                                        <xs:element minOccurs="0" name="llamadoNota">
+                                            <xs:complexType>
+                                                <xs:simpleContent>
+                                                    <xs:extension base="xs:unsignedByte">
+                                                        <xs:attribute name="type" type="xs:string" use="optional" />
+                                                    </xs:extension>
+                                                </xs:simpleContent>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element minOccurs="0" maxOccurs="unbounded" name="p" type="xs:string" />
+                            <xs:element minOccurs="0" name="notas">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element minOccurs="0" name="p">
+                                            <xs:complexType mixed="true">
+                                                <xs:sequence>
+                                                    <xs:element minOccurs="0" name="numNota">
+                                                        <xs:complexType>
+                                                            <xs:simpleContent>
+                                                                <xs:extension base="xs:unsignedByte">
+                                                                    <xs:attribute name="type" type="xs:string" use="optional" />
+                                                                </xs:extension>
+                                                            </xs:simpleContent>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
